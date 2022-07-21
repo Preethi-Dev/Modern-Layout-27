@@ -1,5 +1,52 @@
-/* Resets */
 /* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* Resets */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Variables */
+:root {
+  --primary: #000000;
+  --secondary: #d69d7e;
+}
+
 /* Base Styles */
+body {
+  background-color: var(--secondary);
+  color: var(--primary);
+}
+
+img {
+  max-width: 100%;
+}
+
+main .logo h1,
+main .menu p {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+}
+
+main .top_text p,
+main .bottom_text p {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
 /* Mobile Styles */
